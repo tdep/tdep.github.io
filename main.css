@@ -34,16 +34,37 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   height: 100px;
   width: 100%;
 }
 
-.construction-bar {
+.lights {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   height: 30px;
-  width: 75%;
+  width: 40%;
+}
+
+.blinky-light {
+  height: 30px;
+  width: 30px;
+  background-color: orange;
   border: 1px solid black;
-  margin: 5px 0 10px 0;
+  border-radius: 50%;
+  margin: 0 10px 5px 10px;
+}
+
+.construction-bar {
+  background: linear-gradient(-45deg, #ff8400 0%, #ff8400 7%, 
+  #fff 7%, #fff 18%, #ff8400 18%,#ff8400 29%, #fff 29%, #fff 40%,
+  #ff8400 40%, #ff8400 51%, #fff 51%, #fff 62%, #ff8400 62%, #ff8400 73%,
+  #fff 73%, #fff 84%, #ff8400 84%,#ff8400 95%,#fff 95%,#fff 100% );
+  height: 40px;
+  width: 40%;
+  border: 1px solid black;
+  margin: 0 0 10px 0;
 }
 
 .under-construction {
