@@ -5,7 +5,7 @@
   "type": "module",
   "homepage": "https://tdep/tdep.github.io",
   "scripts": {
-    "predeploy": "vite build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
