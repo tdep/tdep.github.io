@@ -2,7 +2,7 @@ import '../styling/construction.css'
 
 const UnderConstruction = () => {
   return (
-    <body>
+    <>
       <header className="header">
         <h1 className="header-title">Trevor DePew</h1>
         <h4 className="header-sub">Software Engineer</h4>
@@ -29,7 +29,7 @@ const UnderConstruction = () => {
       </div>
       <div id="root"></div>
       <script type="module" src="/src/main.jsx"></script>
-    </body>
+    </>
   )
 }
 

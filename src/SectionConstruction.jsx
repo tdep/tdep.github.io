@@ -2,7 +2,7 @@ import '../styling/construction.css'
 
 const SectionConstruction = () => {
   return (
-    <body>
+    <>
       <div className="graphic">
         <div className="lights">
           <div id="blinky-1" className="blinky-light"></div>
@@ -25,7 +25,7 @@ const SectionConstruction = () => {
       </div>
       <div id="root"></div>
       <script type="module" src="/src/main.jsx"></script>
-    </body>
+    </>
   )
 }
 

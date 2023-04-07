@@ -8,9 +8,15 @@ const LandingPage = () => {
   return (
     <div id="window">
       <div id="home" className="content-container">
-        <div id="title-name">
-          <h1>Trevor DePew</h1>
-          <h4>Software Engineer</h4>
+        <div id="header">
+          <div id="name" className="title-name">
+            <img id="name-first" className="title-name-svg" src="../src/assets/trevor.svg" alt="Trevor" />
+            <img id="name-last" className="title-name-svg" src="../src/assets/depew.svg" alt="DePew" />
+          </div>
+          <div id="title" className="title-name">
+            <img id="title-software" className="title-name-svg" src="../src/assets/software.svg" alt="Software" />
+            <img id="title-engineer" className="title-name-svg" src="../src/assets/engineer.svg" alt="Engineer" />
+          </div>
         </div>
         <div id="links">
           <a id="about-link" href="#about">About</a>
