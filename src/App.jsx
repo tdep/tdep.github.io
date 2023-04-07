@@ -1,34 +1,38 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <body>
+      <header className="header">
+        <h1 className="header-title">Trevor DePew</h1>
+        <h4 className="header-sub">Software Engineer</h4>
+      </header>
+      <div className="graphic">
+        <div className="lights">
+          <div id="blinky-1" className="blinky-light"></div>
+          <div id="blinky-2" className="blinky-light"></div>
+          <div id="blinky-3" className="blinky-light"></div>
+        </div>
+        <div className="construction-bar"></div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+      <div className="under-construction">
+        <span>Welcome to my website! </span>
+        <span>It's currently under construction.</span>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </div>
+      <div className="link-container">
+        <h5>In the meantime, check me out at these places:</h5>
+        <div className="links">
+          <a target="_blank" href="https://www.linkedin.com/in/trevor-depew/">LinkedIn</a>
+          <a target="_blank" href="https://github.com/tdep">GitHub</a>
+          <a target="_blank" href="./trevor_depew_resume.pdf">Resume</a>
+        </div>
+      </div>
+      <div id="root"></div>
+      <script type="module" src="/src/main.jsx"></script>
+    </body>
+
   )
 }
 
