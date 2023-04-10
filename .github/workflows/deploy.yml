@@ -37,7 +37,7 @@ jobs:
           node-version: 16
 
       - name: Install dependencies
-        uses: tdep/npm-install@v1
+        uses: tdep.github.io/npm-install@v1
 
       - name: Build project
         run: npm run build
@@ -62,7 +62,7 @@ jobs:
           path: ./dist
 
       - name: Deploy to GitHub Pages
-        uses: tdep/actions-gh-pages@v3
+        uses: tdep.github.io/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
