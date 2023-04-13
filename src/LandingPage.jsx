@@ -2,6 +2,7 @@ import UnderConstruction from "./UnderConstruction"
 import SectionConstruction from "./SectionConstruction"
 import './App.css'
 import '../styling/landingPage.css'
+import '../public/depew.svg'
 
 const LandingPage = () => {
 
@@ -11,7 +12,7 @@ const LandingPage = () => {
         <div id="header">
           <div id="name" className="title-name">
             <img id="name-first" className="title-name-svg" src="/public/portfolio-name-trevor.png" alt="Trevor" />
-            <img id="name-last" className="title-name-svg" src="https://tdep.github.io/public/depew.svg" alt="DePew" />
+            <img id="name-last" className="title-name-svg" src="../public/depew.svg" alt="DePew" />
           </div>
           <div id="title" className="title-name">
             <img id="title-software" className="title-name-svg" src="../src/assets/portfolio-title-software.png" alt="Software" />
