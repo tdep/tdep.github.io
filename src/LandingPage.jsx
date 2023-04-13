@@ -10,8 +10,8 @@ const LandingPage = () => {
       <div id="home" className="content-container">
         <div id="header">
           <div id="name" className="title-name">
-            <img id="name-first" className="title-name-svg" src="../src/assets/trevor.svg" alt="Trevor" />
-            <img id="name-last" className="title-name-svg" src="../src/assets/depew.svg" alt="DePew" />
+            <img id="name-first" className="title-name-svg" src="../public/trevor.svg" alt="Trevor" />
+            <img id="name-last" className="title-name-svg" src="../public/depew.svg" alt="DePew" />
           </div>
           <div id="title" className="title-name">
             <img id="title-software" className="title-name-svg" src="../src/assets/software.svg" alt="Software" />
