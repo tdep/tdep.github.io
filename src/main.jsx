@@ -5,9 +5,9 @@ import App from './App'
 ReactDOM.createRoot(document.getElementById('root')).render(
     <>
     <App />
-    <img src="/public/trevor.svg" />
-    <img src="./public/trevor.svg" />
-    <img src="./public/portfolio-name-trevor.png" />  
-    <img src="./src/assets/portfolio-title-software.png" /> 
+    <img src="/src/public/trevor.svg" />
+    <img src="./src/public/trevor.svg" />
+    <img src="./src/public/portfolio-name-trevor.png" />  
+    <img src="./tdep.github.io/src/assets/portfolio-title-software.png" /> 
     </>
 )
