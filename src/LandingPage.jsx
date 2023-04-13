@@ -10,7 +10,7 @@ const LandingPage = () => {
       <div id="home" className="content-container">
         <div id="header">
           <div id="name" className="title-name">
-            <img id="name-first" className="title-name-svg" src="https://tdep.github.io/public/portfolio-name-trevor.png" alt="Trevor" />
+            <img id="name-first" className="title-name-svg" src="/public/portfolio-name-trevor.png" alt="Trevor" />
             <img id="name-last" className="title-name-svg" src="https://tdep.github.io/public/depew.svg" alt="DePew" />
           </div>
           <div id="title" className="title-name">
