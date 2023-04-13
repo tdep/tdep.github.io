@@ -2,7 +2,7 @@ import UnderConstruction from "./UnderConstruction"
 import SectionConstruction from "./SectionConstruction"
 import './App.css'
 import '../styling/landingPage.css'
-import LastName from '../assets/images/depew.svg'
+import LastName from '..public/assets/images/depew.svg'
 
 const LandingPage = () => {
 
