@@ -10,12 +10,12 @@ const LandingPage = () => {
       <div id="home" className="content-container">
         <div id="header">
           <div id="name" className="title-name">
-            <img id="name-first" className="title-name-svg" src="docs/assets/images/portfolio-name-trevor.png" alt="Trevor" />
-            <img id="name-last" className="title-name-svg" src="/docs/assets/images/depew.svg" alt="DePew" />
+            <img id="name-first" className="title-name-svg" src="./public/assets/images/portfolio-name-trevor.png" alt="Trevor" />
+            <img id="name-last" className="title-name-svg" src="./public/assets/images/depew.svg" alt="DePew" />
           </div>
           <div id="title" className="title-name">
-            <img id="title-software" className="title-name-svg" src="../src/assets/portfolio-title-software.png" alt="Software" />
-            <img id="title-engineer" className="title-name-svg" src="./src/assets/engineer.svg" alt="Engineer" />
+            <img id="title-software" className="title-name-svg" src="public/assets/images/portfolio-title-software.png" alt="Software" />
+            <img id="title-engineer" className="title-name-svg" src="public/assets/images/engineer.svg" alt="Engineer" />
           </div>
         </div>
         <div id="links">
