@@ -3,7 +3,7 @@ import SectionConstruction from "./SectionConstruction"
 import './App.css'
 import '../styling/landingPage.css'
 import '../public/depew.svg'
-import '../puclic/portfolio-name-trevor.png'
+import '../public/portfolio-name-trevor.png'
 
 const LandingPage = () => {
 
